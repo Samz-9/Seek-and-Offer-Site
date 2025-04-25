@@ -1,1 +1,1 @@
-This is a [Next.js](https://nextjs.org) project
+Seek & Offer is a dedicated community platform built to connect those who wish to give with those in need. We foster a compassionate and seamless environment where individuals, organizations, and communities can easily offer support or seek assistance, making help accessible to everyone.
