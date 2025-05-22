@@ -9,7 +9,8 @@ const Navbar = () => {
   const [showdropdown, setshowdropdown] = useState(false)
   const { data: session } = useSession()
   return (
-    <nav className='bg-[#0c162c] h-[10vh] py-6 px-9 flex items-center justify-between text-white'>
+    <nav className='bg-[#090614] shadow-[0_0_15px_rgba(255,102,153,0.8)]
+ m-3 rounded-xl h-[10vh] py-6 px-9 flex items-center justify-between text-white'>
       <div className='flex gap-3 items-center'>
         <img className='w-[50px]' src="/picsvg_download.svg" />
         <Link href={'/'}><div className='font-bold font-serif'>Seek & Offer</div></Link>
@@ -37,7 +38,7 @@ const Navbar = () => {
         </>
         }
 
-        {!session && <Link href="/login"> <button type="button" className="m-2 text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-2 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-full text-base px-6 py-2.5 text-center me-2 mb-2">Login</button></Link>}
+        {!session && <Link href="/login"> <button type="button" className="m-2 text-black hover:font-semibold bg-gradient-to-r from-red-500 via-red-300 to-white hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-full text-base px-6 py-2.5 text-center me-2 mb-2">Login</button></Link>}
       </div>
     </nav>
   )

@@ -1,9 +1,9 @@
 import Link from "next/link";
 export default function Home() {
   return (
-    <div className="h-[80vh] p-10 w-screen bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]">
+    <div className="p-10 w-screen max-h-screen">
       <div className="text-center">
-        <div className="text-3xl flex gap-3 justify-center text-white items-center font-serif">Bridging Hearts
+        <div className="text-3xl flex gap-3 justify-center text-white drop-shadow-[0px_0px_39px_rgba(237,222,229,0.9)] items-center font-serif">Bridging Hearts
           <img className="w-[100px]" src="/picsvg.svg" alt="bridging" /></div>
         <div className="text-sm text-center font-semibold text-gray-500">Receive Help, Offer Help</div>
         <div className="text-sm text-center font-semibold text-gray-500">"The act of helping and being helped enriches lives and cultivates a culture of generosity and shared success."</div>

@@ -20,9 +20,9 @@ const Login = () => {
     
     return (
 
-        <div className='h-[80vh]'>
+        <div className='max-h-screen'>
             <div className="p-5 text-xl font-serif text-white text-center font-bold">LOGIN To Get Your Details.</div>
-            <div className="flex flex-col gap-2 justify-center items-center p-10">
+            <div className="flex flex-col gap-3 justify-center items-center p-10">
 
                 <button
                     className="flex items-center bg-white border border-gray-300 rounded-lg shadow-md px-6 py-2 text-base w-[310px] justify-center font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">

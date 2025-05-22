@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const About = () => {
     return (
-        <div className="h-[80vh] overflow-y-scroll bg-gray-300">
+        <div className="max-h-screen overflow-y-scroll bg-[#09090d]">
             <div className="relative bg-white h-[55vh]">
                 <img className="absolute top-0 w-full h-full object-fill opacity-50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9VWGFVLB0h3PSQFDhLI2gxw8wOJUMto8qZA&s" alt="" />
 

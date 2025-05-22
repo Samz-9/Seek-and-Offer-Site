@@ -34,7 +34,7 @@ const Dashboard = () => {
     }
 
     return (
-        <div className='text-white h-[80vh]'>
+        <div className='text-white max-h-screen'>
             <div className='text-2xl font-bold text-center m-5'>Welcome To Your Dashboard</div>
             <ul className='text-sm font-bold w-[60vw] space-y-2 m-auto'>
                 <li>Name
